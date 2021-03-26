@@ -1,10 +1,7 @@
 body {
- text-align: center;
- border: 1px solid black;
- background-image: url(https://resources.owllabs.com/hs-fs/hubfs/fog-3622519_1920-jpg.jpeg?width=882&name=fog-3622519_1920-jpg.jpeg);
- background-repeat: no-repeat;
- background-attachment: fixed;  
- background-size: cover;
+ margin: 0;
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 300;
 }
 
 .container {
@@ -37,4 +34,10 @@ nav il {
  display: inline-block;
  margin-left: 0 35px;
  padding-top: 25px;
+}
+
+nav a {
+ color; #444;
+ text-decoration: none;
+ text-transform: uppercase;
 }
