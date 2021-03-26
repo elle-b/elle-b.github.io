@@ -20,6 +20,7 @@ header::after {
 
 .logo {
  float: left;
+ padding: 10px 0;
 }
 
 nav {
@@ -35,4 +36,5 @@ nav ul {
 nav il {
  display: inline-block;
  margin-left: 0 35px;
+ padding-top: 25px;
 }
