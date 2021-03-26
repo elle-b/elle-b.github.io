@@ -6,3 +6,8 @@ body {
  background-attachment: fixed;  
  background-size: cover;
 }
+
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
