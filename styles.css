@@ -11,3 +11,17 @@ body {
  width: 80%;
  margin: 0 auto;
 }
+
+header::after {
+ content: '';
+ display: table;
+ clear: both;
+}
+
+.logo {
+ float: left;
+}
+
+nav {
+ float: right;
+}
