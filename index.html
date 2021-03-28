@@ -1,31 +1,53 @@
 <!DOCTYPE html>
+
+<!---- Youtube tutorial: https://www.youtube.com/watch?v=oYRda7UtuhA ---->
+
 <html>
 <head>
- <title>Ohayo Studios</title>
- <link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+	<title>Ohayo Studios</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
- 
-<header>
-    <div class="container">
-      <img src="https://github.com/elle-b/elle-b.github.io/blob/main/Ohayo%20Studios%20Logo.png?raw=true" alt="logo" class="logo">
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/Ohayo Studios Logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">ILLUSTRATIONS</a></li>
+					<li><a href="">CONTACT</a></li>
+				</ul>
+			
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
 
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Illustrations</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
- 
- <h1>My First Heading</h1>
- <p>My first paragraph.</p>
- <button id="clickable">CLICK ME</button>
+</section>
+
+
+
+<!-- Javascript for Toggle Menu ----->
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+
+	funtion showMenu(){
+		navLinks.style.right = "0";
+	}
+	funtion hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
 </body>
 
-<script src="script.js">
-</script>
 </html>
